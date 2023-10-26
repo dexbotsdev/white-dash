@@ -116,11 +116,11 @@ export const Buttons: React.FC<ButtonsProps> = ({
   const chosenNameOfMenuBotton = (link: string, index: number) => {
     const active = path === link;
 
-    if (index === 0 && path.includes("market/")) {
+    if (index === 0 && path.includes("market")) {
       return "active";
     }
 
-    if (index === 2 && path.includes("ai-trading-bots/")) {
+    if (index === 2 && path.includes("ai-trading-bots")) {
       return "active";
     }
 

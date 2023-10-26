@@ -13,8 +13,7 @@
 @mixin box-primary {
   border-radius: 15px;
   background: #fff;
-  box-shadow: 4px 4px 20px 0px rgba(167, 193, 214, 0.2),
-    -4px -4px 6px 0px rgba(255, 255, 255, 0.6);
+  box-shadow: 4px 4px 20px 0px #2196f38c, -4px -4px 6px 0px #fff9;
 }
 
 @mixin active-botton-primety {

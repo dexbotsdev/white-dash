@@ -4,8 +4,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 57px;
-
+  height: 55px;
+  background-color: #ffffff;
+  padding-left: 35px;
+  padding-top:10px;
+  padding-bottom: 5px;
+  padding-right: 40px;
+  
   .user-panel {
     display: flex;
     align-items: center;
@@ -80,5 +85,7 @@ header {
     width: 100%;
     @include box-primary;
     z-index: 100;
+    border-radius: 0px !important; 
+
   }
 }
