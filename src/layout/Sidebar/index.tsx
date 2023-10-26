@@ -6,7 +6,7 @@ import upbgreideCoin from "../../assets/png/upbgreide-coin.png";
 import bgCard from "../../assets/png/bg-cards-user.png";
 import userPhoto from "../../assets/png/user-photo.png";
 import checkedUser from "../../assets/svg/header/Vector.svg";
-import logo from "../../assets/png/logo-title.png";
+import logo from "../../assets/Logomark.svg";
 
 import { Buttons } from "../Buttons";
 import { UserPanel } from "../Header";
@@ -29,7 +29,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
           <a href="/">
             <img src={logo} alt="Logo" height="48px"/>
           </a>
-          <h2>BlueBOTS</h2>
+          <h2>AIQuotient</h2>
         </div>
  
 
