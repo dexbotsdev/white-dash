@@ -9,7 +9,7 @@ nav {
     display: flex;
     align-items: center;
     padding: 15px;
-    margin:2px;
+    margin: 2px;
     gap: 16px;
     width: 100%;
     height: 46px;
@@ -18,10 +18,17 @@ nav {
     font-size: 13px;
 
     .svg {
-      width: 18px;
+      width: 24px;
+      border: 2px solid white;
+      border-radius: 4px;
+      padding: 2px;
     }
 
     .svg-active * {
+      width: 24px;
+      border: 2px solid white;
+      padding: 5px;
+      border-radius: 4px;
       fill: #fff;
     }
 
@@ -34,9 +41,10 @@ nav {
   }
 
   .active {
-    background: var(--background-secondery);
+    background: #3F51B5;
     border-radius: 3px;
     box-shadow: 0px 8px 15px 0px rgba(0, 51, 150, 0.3);
+    border-right: 5px solid #00BCD4;
     color: #fff;
   }
 }

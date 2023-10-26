@@ -90,11 +90,11 @@ export const Buttons: React.FC<ButtonsProps> = ({
   }, [path]);
 
   const showNameForTitle = (data: IDataButtons[]): string => {
-    if (path.includes("market/")) {
+    if (path.includes("market")) {
       return "Markets";
     }
 
-    if (path.includes("ai-trading-bots/")) {
+    if (path.includes("ai-trading-bots")) {
       return "AI Trading Bots";
     }
 
